@@ -7,3 +7,36 @@
   font-size: 2em;
   text-align: center;
 }
+.container {
+  margin: 2em 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+button.btn {
+  cursor: pointer;
+  padding: 11px;
+  min-width: 125px;
+  border-radius: 5px;
+  }
+button.primary {
+  border: 0px;
+  background: #3498db;
+  color: #ffffff;
+}
+button.default {
+  border: 2px solid rgb(157, 157, 163);
+}
+button.dashed {
+  border: 2px dotted rgb(157, 157, 163);
+}
+
+button.link {
+  border: 0px rgb(157, 157, 163);
+  text-decoration: double;
+  color: blue;
+}
+button:hover{
+  opacity: 0.9;
+}
